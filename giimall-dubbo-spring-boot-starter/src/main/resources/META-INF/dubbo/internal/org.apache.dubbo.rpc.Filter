@@ -1,0 +1,3 @@
+requestContextProviderFilter=com.giimall.dubbo.filter.RequestContextProviderFilter
+requestContextConsumerFilter=com.giimall.dubbo.filter.RequestContextConsumerFilter
+commonException=com.giimall.dubbo.filter.CommonExceptionFilter

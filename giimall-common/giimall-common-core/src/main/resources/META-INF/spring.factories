@@ -1,0 +1,12 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.giimall.common.config.RedisAutoConfig,\
+com.giimall.common.config.RestTemplateAutoConfig,\
+com.giimall.common.config.GlobalExceptionHandlerAutoConfig,\
+com.giimall.common.config.CommonFilterAutoConfig,\
+com.giimall.common.config.ConsulHeartbeatAutoConfiguration,\
+com.giimall.common.config.RecordMethodTimeAutoConfig
+
+
+org.springframework.context.ApplicationContextInitializer=\
+com.giimall.common.initialize.GiimallApplicationContextInitializer
